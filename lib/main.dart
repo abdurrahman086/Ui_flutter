@@ -32,8 +32,8 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
-  final data = Product('bayam', '2.000', '1 ikat', 'assets/img1.png',
-      'secara umum kita akan belajar berusaha untuk bangkit dari kegagalan');
+  final data = Product('Ktm', '20.000.000', '1 Motor', 'assets/img01.png',
+      'KTM merupakan produk otomotif terbesar di dunia');
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -45,7 +45,7 @@ class _MainPageState extends State<MainPage> {
           color: Colors.black,
         ),
         title: const Text(
-          'Aplikasi UI',
+          'Showroom Otomotif',
           style: TextStyle(color: Colors.black),
         ),
         centerTitle: true,
