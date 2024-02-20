@@ -17,7 +17,7 @@ class Product {
 final List<Product> allData = [
   Product('Ktm', '20.000.000', '1 Motor', 'assets/img01.png',
       'KTM merupakan produk otomotif terbesar di dunia'),
-  Product('R15 V3', '39.000.000', '1 Motor', 'assets/img02.png',
+  Product('Yamaha', '39.000.000', '1 Motor', 'assets/img02.png',
       'Yamaha merupakan pabrikan asal jepang'),
   Product('Ban mobil', '4.000.000', '1 Ban', 'assets/img03.png',
       'Ban di gunakan untuk keperluan kendaraan'),
